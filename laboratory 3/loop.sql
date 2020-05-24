@@ -9,8 +9,8 @@ BEGIN
             country_name
         ) VALUES (
             'BAND' || i,
-            1930 - 3 * i,
-            1930 + 4 * i,
+            200 - 3 * i,
+            200 + 4 * i,
             'country' || i
         );
 
